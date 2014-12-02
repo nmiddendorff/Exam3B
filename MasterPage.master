@@ -1,0 +1,53 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+ <!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head runat="server">
+     <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+
+
+
+    <title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    </title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+        <link href="navbar-fixed-top.css" rel="stylesheet" />
+    <style type="text/css">
+        .footer {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+     
+    <div class="container">
+            <div id="main">
+                                
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+
+            </div> <!-- close the main DIV -->
+
+         <div class="footer">
+             <br />
+             <br />
+        <p class="text-muted">&copy; 2014 MSCI:3300 - Software Design and Development 
+                Today's date is: <asp:Label ID="Label2" runat="server" ><%= String.Format("{0:d}", DateTime.Now) %></asp:Label></p>
+      </div>
+        </div>
+
+
+    </form>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
