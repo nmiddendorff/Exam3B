@@ -141,4 +141,12 @@
   <data name="Label7.text" xml:space="preserve">
     <value>English</value>
   </data>
+  <data name="RadioButton1.text" xml:space="preserve">
+    <value>Male</value>
+    <comment>Male</comment>
+  </data>
+  <data name="RadioButton2.text" xml:space="preserve">
+    <value>Female</value>
+    <comment>Female</comment>
+  </data>
 </root>

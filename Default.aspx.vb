@@ -18,4 +18,13 @@ Partial Class _Default
         Dim money As Decimal = 12
         currencyLabel1.Text = String.Format("{0:c}", money)
     End Sub
+
+    Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Label7.Text = ("Hello, " & TextBox1.Text)
+
+        Dim gender As String
+        If RadioButton1.Checked = True Then gender = RadioButton1.Text
+        If RadioButton1.Checked = True Then gender = RadioButton1.Text
+
+    End Sub
 End Class
