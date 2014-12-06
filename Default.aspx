@@ -14,29 +14,32 @@
     <form id="form1" runat="server">
     <div>
     
-
+        <div class="alert alert-success" role="alert">
          <asp:Label ID="Label1" runat="server" Text="Welcome" meta:resourceKey="Label1"></asp:Label>
-    
+    </div>
     <p>
 
         <asp:Label ID="Label2" runat="server" Text="Please choose your language:" meta:resourceKey="Label2"></asp:Label>
     </p>
-    <p>
-
+        <div id="container">
+             <div id= "main">
+    
+        <div class="well">
         <asp:DropDownList ID="Language1" runat="server" AutoPostBack="True">
             <asp:ListItem Value="en">English</asp:ListItem>
             <asp:ListItem Value="ar">Arabic</asp:ListItem>
             <asp:ListItem Value="zh">Chinese</asp:ListItem>
             <asp:ListItem Value="es">Spanish</asp:ListItem>
         </asp:DropDownList>
-    </p>
+    
+     </div>
     <hr />
-    <p>
-
+    
+<div class="well">
         &nbsp;<asp:Label ID="Label3" runat="server" Text="My name is:" meta:resourceKey="Label3"></asp:Label>
 &nbsp;&nbsp;&nbsp;
         <asp:TextBox ID="TextBox1" runat="server" Width="209px"></asp:TextBox>
-    </p>
+  
     <p>
 
         &nbsp;</p>
@@ -77,17 +80,32 @@
 
         <asp:Button ID="Button1" runat="server" Text="Submit" meta:resourceKey="Button1"/>
     </p>
-    <p>
+    
+        </div>
 
         <asp:Label ID="CurrencyLabel1" runat="server" Text="CurrencyLabel1"></asp:Label>
-    </p>
-    <p>
-
+    
+    
+<div class="well">
         <asp:Label ID="Label7" runat="server" Text="_"></asp:Label>
+         
+         <p>
+
+        <asp:Label ID="Label8" runat="server" Text="_"></asp:Label>
          </p>
+         <p>
 
+        <asp:Label ID="Label9" runat="server" Text="_"></asp:Label>
+         </p>
+         <p>
 
+        <asp:Label ID="Label10" runat="server" Text="_"></asp:Label>
+         </p>
     </div>
+
+</div>
+    </div>
+        </div>
     </form>
 </body>
 </html>
