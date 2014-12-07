@@ -83,24 +83,28 @@
     
         </div>
 
-        <asp:Label ID="CurrencyLabel1" runat="server" Text="CurrencyLabel1"></asp:Label>
-    
     
 <div class="well">
-        <asp:Label ID="Label7" runat="server" Text="_"></asp:Label>
+        <asp:Label ID="Label7" runat="server" Text="."></asp:Label>
          
          <p>
 
-        <asp:Label ID="Label8" runat="server" Text="_"></asp:Label>
+        <asp:Label ID="Label8" runat="server" Text="."></asp:Label>
          </p>
          <p>
 
-        <asp:Label ID="Label9" runat="server" Text="_"></asp:Label>
+        <asp:Label ID="Label9" runat="server" Text="."></asp:Label>
+
+        <asp:Label ID="Label13" runat="server" Text="."></asp:Label>
          </p>
          <p>
 
-        <asp:Label ID="Label10" runat="server" Text="_"></asp:Label>
+        <asp:Label ID="Label10" runat="server" Text="."></asp:Label>
+         &nbsp;<asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="https://github.com/nmiddendorff" Visible="False">GitHub</asp:HyperLink>
          </p>
+        <p>
+
+            &nbsp;</p>
     </div>
 
 </div>

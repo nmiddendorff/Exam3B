@@ -29,13 +29,15 @@ Partial Class _Default
             gender = "Mrs."
         End If
 
-        Dim money As Decimal
-        TextBox2.Text = String.Format("{0:c}", money)
+        Dim money As Decimal = Val(TextBox2.Text)
+        Label13.text = String.Format("{0:c}", money)
 
         Label7.Text = ("Hello, " & gender & " " & TextBox1.Text)
-        Label8.Text = ("Ihope you have a great day when you graduate on " & Calendar1.SelectedDate & "!")
-        Label9.Text = ("I wish you well in your career after graduation. I hope you earn  " & TextBox2.Text)
-        Label10.Text = ("Please visit me on Github %%%%%%%%")
+        Label8.Text = ("I hope you have a great day when you graduate on " & Calendar1.SelectedDate & "!")
+        Label9.Text = ("I wish you well in your career after graduation. I hope you earn  " & Label13.Text)
+        Label10.Text = ("Please visit me on ")
+        HyperLink1.Visible = True
+
 
     End Sub
 End Class
