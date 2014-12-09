@@ -149,6 +149,26 @@
     <value>العربية</value>
     <comment>Arabic</comment>
   </data>
+  <data name="line1.text" xml:space="preserve">
+    <value>مرحبا، </value>
+    <comment>Hello, </comment>
+  </data>
+  <data name="line2.text" xml:space="preserve">
+    <value>آمل أن يكون لديك يوم عظيم عند التخرج على </value>
+    <comment>I hope you have a great day when you graduate on </comment>
+  </data>
+  <data name="line3A.text" xml:space="preserve">
+    <value>أتمنى لكم التوفيق في حياتك المهنية بعد التخرج. آمل أن تكسب</value>
+    <comment>I wish you well in your career after graduation. I hope you earn </comment>
+  </data>
+  <data name="line3B.text" xml:space="preserve">
+    <value>كما راتبا في أول وظيفة الخاص بك!</value>
+    <comment> as a salary in your first job!</comment>
+  </data>
+  <data name="line4.text" xml:space="preserve">
+    <value>يرجى زيارة لي على</value>
+    <comment>Please visit me on </comment>
+  </data>
   <data name="RadioButton1.text" xml:space="preserve">
     <value>ذكر</value>
     <comment>Male</comment>

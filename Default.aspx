@@ -85,23 +85,45 @@
 
     
 <div class="well">
-        <asp:Label ID="Label7" runat="server" Text="."></asp:Label>
+        <asp:Label ID="Line1" runat="server" meta:resourceKey="Line1" Visible="False"></asp:Label>
+         
+             <asp:Label ID="Test1" runat="server" Text="" ></asp:Label>
+
+       
+         
+         <asp:Label ID="Input1" runat="server" Text="" meta:resourceKey="Input1"></asp:Label>
          
          <p>
 
-        <asp:Label ID="Label8" runat="server" Text="."></asp:Label>
+        <asp:Label ID="Line2" runat="server" meta:resourceKey="Line2" Visible="False"></asp:Label>
+         <asp:Label ID="Test2" runat="server" Text="" ></asp:Label>
+         <asp:Label ID="Input4" runat="server" Text="" meta:resourceKey="Input4"></asp:Label>
+         
          </p>
          <p>
 
-        <asp:Label ID="Label9" runat="server" Text="."></asp:Label>
+        <asp:Label ID="Line3A" runat="server" meta:resourceKey="Line3A" Visible="False"></asp:Label>
+         <asp:Label ID="Test3" runat="server" Text="" ></asp:Label>
+             <asp:Label ID="Line3B" runat="server" meta:resourceKey="Line3B" Visible="False"></asp:Label>
 
-        <asp:Label ID="Label13" runat="server" Text="."></asp:Label>
+       
+         
+         <asp:Label ID="Input2" runat="server" Text="" meta:resourceKey="Input2"></asp:Label>
+         <asp:Label ID="Input3" runat="server" Text="" meta:resourceKey="Input3"></asp:Label>
+         
+             <asp:Label ID="Test5" runat="server" Text="" ></asp:Label>
+         
          </p>
          <p>
 
-        <asp:Label ID="Label10" runat="server" Text="."></asp:Label>
-         &nbsp;<asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="https://github.com/nmiddendorff" Visible="False">GitHub</asp:HyperLink>
+        <asp:Label ID="Line4" runat="server" Visible="False" meta:resourceKey="line4"></asp:Label>
+         &nbsp;<asp:Label ID="Test4" runat="server" Text="" ></asp:Label>
+         
+             <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="https://github.com/nmiddendorff" Visible="False">GitHub</asp:HyperLink>
          </p>
+        <p>
+
+            &nbsp;</p>
         <p>
 
             &nbsp;</p>

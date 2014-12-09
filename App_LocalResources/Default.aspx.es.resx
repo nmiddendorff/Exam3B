@@ -149,6 +149,26 @@
     <value>español</value>
     <comment>Spanish</comment>
   </data>
+  <data name="line1.text" xml:space="preserve">
+    <value>¡Hola, </value>
+    <comment>Hello, </comment>
+  </data>
+  <data name="line2.text" xml:space="preserve">
+    <value>Espero que tengas un greatday cuando se gradúe en </value>
+    <comment>I hope you have a greatday when you graduate on </comment>
+  </data>
+  <data name="line3A.text" xml:space="preserve">
+    <value>Te deseo lo mejor en su carrera después de la graduación . Espero que gane </value>
+    <comment>I wish you well in your career after graduation. I hope you earn </comment>
+  </data>
+  <data name="line3B.text" xml:space="preserve">
+    <value>como un salario en su primer trabajo ! </value>
+    <comment> as a salary in your first job!</comment>
+  </data>
+  <data name="line4.text" xml:space="preserve">
+    <value>Por favor, visite conmigo en </value>
+    <comment>Please visit me on </comment>
+  </data>
   <data name="RadioButton1.text" xml:space="preserve">
     <value>masculino</value>
     <comment>Male</comment>

@@ -14,12 +14,6 @@ Partial Class _Default
         End If
     End Sub
 
-    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
-        '        Dim money As Decimal = 12
-        '       CurrencyLabel1.Text = String.Format("{0:c}", money)
-
-    End Sub
-
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
         Dim gender As String
@@ -30,12 +24,13 @@ Partial Class _Default
         End If
 
         Dim money As Decimal = Val(TextBox2.Text)
-        Label13.text = String.Format("{0:c}", money)
+        Line3B.text = String.Format("{0:c}", money)
 
-        Label7.Text = ("Hello, " & gender & " " & TextBox1.Text)
-        Label8.Text = ("I hope you have a great day when you graduate on " & Calendar1.SelectedDate & "!")
-        Label9.Text = ("I wish you well in your career after graduation. I hope you earn  " & Label13.Text)
-        Label10.Text = ("Please visit me on ")
+        Test1.Text = (Line1.Text & Input1.Text & gender & " " & TextBox1.Text)
+        Test2.Text = (Line2.Text & Input2.Text & Calendar1.SelectedDate & "!")
+        Test3.Text = (Line3A.Text & Input3.Text)
+        Test5.Text = (Line3B.Text)
+        Test4.Text = Line4.Text
         HyperLink1.Visible = True
 
 

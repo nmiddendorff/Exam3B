@@ -149,6 +149,26 @@
     <value>中国</value>
     <comment>Chinese</comment>
   </data>
+  <data name="line1.text" xml:space="preserve">
+    <value>您好，</value>
+    <comment>Hello, </comment>
+  </data>
+  <data name="line2.text" xml:space="preserve">
+    <value>我希望你有一个伟大的日子，当你毕业的</value>
+    <comment>I hope you have a greatday when you graduate on </comment>
+  </data>
+  <data name="line3A.text" xml:space="preserve">
+    <value>祝你顺利毕业后，你的职业生涯。我希望你赚 </value>
+    <comment>I wish you well in your career after graduation. I hope you earn </comment>
+  </data>
+  <data name="line3B.text" xml:space="preserve">
+    <value>在你的第一份工作的薪水！</value>
+    <comment> as a salary in your first job!</comment>
+  </data>
+  <data name="line4.text" xml:space="preserve">
+    <value>请访问我的 </value>
+    <comment>Please visit me on </comment>
+  </data>
   <data name="RadioButton1.text" xml:space="preserve">
     <value>男</value>
     <comment>Male</comment>

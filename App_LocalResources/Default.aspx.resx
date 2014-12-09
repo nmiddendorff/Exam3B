@@ -141,6 +141,26 @@
   <data name="Label7.text" xml:space="preserve">
     <value>English</value>
   </data>
+  <data name="line1.text" xml:space="preserve">
+    <value>Hello,</value>
+    <comment>Hello, </comment>
+  </data>
+  <data name="line2.text" xml:space="preserve">
+    <value>I hope you have a great day when you graduate on</value>
+    <comment>I hope you have a greatday when you graduate on </comment>
+  </data>
+  <data name="line3A.text" xml:space="preserve">
+    <value>I wish you well in your career after graduation. I hope you earn</value>
+    <comment>I wish you well in your career after graduation. I hope you earn </comment>
+  </data>
+  <data name="line3B.text" xml:space="preserve">
+    <value>as a salary in your first job!</value>
+    <comment> as a salary in your first job!</comment>
+  </data>
+  <data name="line4.text" xml:space="preserve">
+    <value>Please visit me on </value>
+    <comment>Please visit me on </comment>
+  </data>
   <data name="RadioButton1.text" xml:space="preserve">
     <value>Male</value>
     <comment>Male</comment>
